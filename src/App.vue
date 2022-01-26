@@ -2,10 +2,12 @@
   <div id="app">
    
     <Title/>
+    <hero/>
   </div>
 </template>
 
 <script>
+import Hero from './components/Hero.vue'
 import Title from './components/Title.vue'
 
 
@@ -13,9 +15,11 @@ import Title from './components/Title.vue'
 export default {
   name: 'App',
   components: {
-    Title
+    Title,
+    Hero
    
-    
+  ,
+     
   }
 }
 </script>
